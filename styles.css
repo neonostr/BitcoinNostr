@@ -1,16 +1,16 @@
 
 body {
     background-color: #F5EAEA;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 /****************** LINKS ******************/
 
 a {
-    text-align: center;
     color: #111111;
     display: block;
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -21,103 +21,121 @@ a {
 .created-link {
     color: #460345;
     font-size: 0.5em;
+    margin: 0 auto 0 auto;
     text-decoration: none;
 }
 
 .created-link:hover {
-    color: #F7931A;
+    color: #ff9500;
 }
 
 .nostr-link:hover {
-    color: #F7931A;
+    color: #ff9500;
 }
-
 
 /****************** CONTAINER ******************/
 
 .container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
+
 
 .section-one {
     background-color: purple;
-    color: #F7931A;
-    padding: 21px;
+    color: #ff9500;
     margin: 0px;
+    padding: 21px;
     width: 60%;
 }
 
+
 .section-two {
-    background-color: #F7931A;
+    background-color: #ff9500;
     color: purple;
-    padding: 21px;
     margin: 0px;
+    padding: 21px;
     width: 60%;
 }
+
 
 .section-three {
     background-color: purple;
-    color: #F7931A;
-    padding: 21px;
+    color: #ff9500;
     margin: 0px;
+    padding: 21px;
     width: 60%;
 }
 
-
 /****************** IMAGES ******************/
 
-.nostr_img {
-    width: 210px;
-    height: 210px;
-}
 
 .bitcoin_img {
-    width: 210px;
     height: 210px;
+    margin: 21px auto 21px auto;
+    width: 210px;
 }
+
+
+.i_love_img {
+    height: 210px;
+    margin: 21px auto 84px auto;
+    width: 210px;
+}
+
+
+.nostr_img {
+    height: 210px;
+    margin: 21px auto 21px auto;
+    width: 210px;
+}
+
+
+.ostrich_img {
+    margin: 0 auto 0 auto;
+}
+
+
 
 
 /****************** OTHER ******************/
 
 
 .created {
+    color: #ff9500;
     display: block;
-    color: #460345;
-    font-size: 0.5em;
-    margin-top: 77px;
+    font-family: Brush Script MT, cursive;
+    font-size: 0.6em;
+    margin-top: 77px auto 0 auto;
 }
+
 
 h1 {
     font-size: 3.5em;
 }
 
-img {
-    margin: 21px;
-}
 
 p {
     color: #111111;
     font-size: 1.5em;
     margin: 5.5px 0px 5.5px 0px;
-
 }
 
 
 /****************** LINKS TABLE ******************/
 
-table {
-    width: 200px;
-    height: 1px;
-    display: block;
-}
-
 .link-img {
-    width: 210px;
     height: 140px;
+    width: 210px;
 }
 
+
+table {
+    display: block;
+    height: 1px;
+    width: 200px;
+}
 
 
 @media (max-width: 767px) {
