@@ -1,0 +1,137 @@
+
+body {
+    background-color: #F5EAEA;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************** LINKS ******************/
+
+a {
+    text-align: center;
+    color: #111111;
+    display: block;
+    text-decoration: underline;
+}
+
+.bitcoin-link:hover {
+    color: purple;
+}
+
+.created-link {
+    color: #460345;
+    font-size: 0.5em;
+    text-decoration: none;
+}
+
+.created-link:hover {
+    color: #F7931A;
+}
+
+.nostr-link:hover {
+    color: #F7931A;
+}
+
+
+/****************** CONTAINER ******************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-one {
+    background-color: purple;
+    color: #F7931A;
+    padding: 21px;
+    margin: 0px;
+    width: 60%;
+}
+
+.section-two {
+    background-color: #F7931A;
+    color: purple;
+    padding: 21px;
+    margin: 0px;
+    width: 60%;
+}
+
+.section-three {
+    background-color: purple;
+    color: #F7931A;
+    padding: 21px;
+    margin: 0px;
+    width: 60%;
+}
+
+
+/****************** IMAGES ******************/
+
+.nostr_img {
+    width: 210px;
+    height: 210px;
+}
+
+.bitcoin_img {
+    width: 210px;
+    height: 210px;
+}
+
+
+/****************** OTHER ******************/
+
+
+.created {
+    display: block;
+    color: #460345;
+    font-size: 0.5em;
+    margin-top: 77px;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+img {
+    margin: 21px;
+}
+
+p {
+    color: #111111;
+    font-size: 1.5em;
+    margin: 5.5px 0px 5.5px 0px;
+
+}
+
+
+/****************** LINKS TABLE ******************/
+
+table {
+    width: 200px;
+    height: 1px;
+    display: block;
+}
+
+.link-img {
+    width: 210px;
+    height: 140px;
+}
+
+
+
+@media (max-width: 767px) {
+    .section-one, .section-two, .section-three {
+      width: 90%;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+
+  }
+  
+
+
+
