@@ -103,7 +103,7 @@ a {
 
 
 .created {
-    color: #ff9500;
+    color: #111111;
     display: block;
     font-family: Brush Script MT, cursive;
     font-size: 0.6em;
@@ -117,7 +117,6 @@ h1 {
 
 
 p {
-    color: #111111;
     font-size: 1.5em;
     margin: 5.5px 0px 5.5px 0px;
 }
